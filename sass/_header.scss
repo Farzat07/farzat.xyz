@@ -1,0 +1,30 @@
+.header {
+	height: 60*$px;
+	max-width: 1200*$px;
+	padding: 0 20*$px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1*$px solid var(--color-secondary);
+}
+.home-link {
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	height: 100%;
+	&:link, &:visited {
+		text-decoration: none;
+		font-size: 28*$px;
+		color: var(--color-text);
+		transition: transform .2s;
+	}
+	&:hover, &:active {
+		color: var(--color-primary);
+		transform: scale(1.05);
+	}
+}
+.main_icon {
+	height: 100%;
+	width: 40*$px;
+	fill: currentColor;
+}

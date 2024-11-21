@@ -1,0 +1,27 @@
+@use "sass:math";
+$px: math.div(1rem, 16);
+// Colours
+$color-primary-light:   hsl(120                    50% 90%);
+$color-secondary-light: darken($color-primary-light,         80%);
+$color-tertiary-light:  hsl(hue($color-primary-light)+60 80% 20%);
+$color-accent-light:    hsl(hue($color-primary-light)-60 80% 20%);
+$color-primary-dark:   darken($color-primary-light,    80%);
+$color-secondary-dark: lighten($color-secondary-light, 80%);
+$color-tertiary-dark:  lighten($color-tertiary-light,  60%);
+$color-accent-dark:    lighten($color-accent-light,    60%);
+$themes: (
+ light: (
+   text: #000000,
+   background: #e9eaed,
+   primary: #2fb65a,
+   secondary: #c5c9d3,
+   accent: #bbb11b,
+ ),
+ dark: (
+   text: #FFFFFF,
+   background: #131417,
+   primary: #47CF73,
+   secondary: #2C303A,
+   accent: #E4D944,
+ ),
+);

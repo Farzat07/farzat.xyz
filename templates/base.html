@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="/style.css">
+		<title>{% block title %} Farzat's website {% endblock %}</title>
+		<script defer src="/js/dark_theme.js"></script>
+		<link rel="icon" type="image/x-icon" href="/img/svgo/kaaba.svg">
+	</head>
+	<body>
+		<header class="header">
+			<a href="/" class="home-link">
+				<svg class="main_icon">
+					<use href="/img/svg-bundle.svg#kaaba"></use>
+				</svg>
+				Farzat
+			</a>
+		</header>
+		<section class="main">
+			<div class="main__container">
+				{% block content %} {% endblock %}
+			</div>
+		</section>
+	</body>
+</html>
+<!-- vim: set ft=htmldjango -->

@@ -1,0 +1,51 @@
+h1, h2, h3, h4, h5 {
+	font-weight: bold;
+}
+h1 {
+	font-size: 4.210rem; /* 67.36px */
+	margin: 0;
+	& > .--main {
+		display: block;
+	}
+	& > .--sub {
+		font-size: .75em;
+		display: block;
+		font-style: italic;
+	}
+	& > .--sub-sub {
+		display: block;
+		font-size: .6em;
+	}
+}
+h2 {
+	font-size: 3.158rem; /* 50.56px */
+}
+h3 {
+	font-size: 2.369rem; /* 37.92px */
+	margin: 0;
+}
+h4 {
+	font-size: 1.777rem; /* 28.48px */
+}
+h5 {
+	font-size: 1.333rem; /* 21.28px */
+}
+small {
+	font-size: 0.750rem; /* 12px */
+}
+.color-primary {
+	color: var(--color-primary);
+}
+.color-accent {
+	color: var(--color-accent);
+}
+.color-gradient {
+	color: transparent;
+	background-image: linear-gradient(60deg, var(--color-primary), var(--color-accent));
+	background-clip: text;
+}
+.text-stroke {
+	-webkit-text-stroke-width: 2*$px;
+	-webkit-text-stroke-color: currentColor;
+	-webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,22 @@
+@use "sass:map";
+@mixin color-theme2($theme) {
+	@if $theme == dark {
+		--color-primary:   #{$color-primary-dark};
+		--color-secondary: #{$color-secondary-dark};
+		--color-tertiary:  #{$color-tertiary-dark};
+		--color-accent:    #{$color-accent-dark};
+	}
+	@if $theme == light {
+		--color-primary:   #{$color-primary-light};
+		--color-secondary: #{$color-secondary-light};
+		--color-tertiary:  #{$color-tertiary-light};
+		--color-accent:    #{$color-accent-light};
+	}
+}
+@mixin color-theme($theme) {
+	--color-text: #{map.get($themes, $theme, "text")};
+	--color-background: #{map.get($themes, $theme, "background")};
+	--color-primary: #{map.get($themes, $theme, "primary")};
+	--color-secondary: #{map.get($themes, $theme, "secondary")};
+	--color-accent: #{map.get($themes, $theme, "accent")};
+}

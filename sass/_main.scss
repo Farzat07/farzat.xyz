@@ -1,9 +1,7 @@
 .main {
 	max-width: 1200*$px;
 	margin: 0 auto;
-	&__container {
-		padding: 20*$px;
-	}
+	padding: 20*$px;
 }
 .hero {
 	display: flex;

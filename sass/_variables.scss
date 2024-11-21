@@ -1,5 +1,7 @@
 @use "sass:math";
 $px: math.div(1rem, 16);
+// Fonts
+$fonts-sans-serif: Helvetica, Arial, sans-serif;
 // Colours
 $color-primary-light:   hsl(120                    50% 90%);
 $color-secondary-light: darken($color-primary-light,         80%);

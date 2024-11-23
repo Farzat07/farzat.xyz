@@ -1,0 +1,35 @@
+footer {
+	margin-top: 200*$px;
+}
+.footer {
+	margin: 100*$px auto;
+	text-align: center;
+}
+.social-icons {
+	& a {
+		cursor: pointer;
+		outline: none;
+		&:link, &:visited {
+			color: inherit;
+			text-decoration: none;
+			transition: transform .2s;
+		}
+		&:hover, &:active {
+			color: var(--color-primary);
+			transform: scale(1.05);
+		}
+		&:focus {
+			color: var(--color-accent);
+			transform: scale(1.05);
+		}
+	}
+	& svg {
+		max-width: 30*$px;
+		max-height: 30*$px;
+		fill: currentColor;
+	}
+	margin-top: 20*$px;
+	display: flex;
+	gap: 40*$px;
+	justify-content: center;
+}

@@ -6,7 +6,7 @@
 		<link rel="stylesheet" href="/style.css">
 		<title>{% block title %} Farzat's website {% endblock %}</title>
 		<!-- <script defer src="/js/dark_theme.js"></script> -->
-		<link rel="icon" type="image/x-icon" href="/img/svgo/kaaba.svg">
+		<link rel="icon" type="image/x-icon" href="/img/svgo/kaaba-coloured.svg">
 	</head>
 	<body>
 		<header class="header">
@@ -20,6 +20,48 @@
 		<section class="main">
 			{% block content %} {% endblock %}
 		</section>
+		<footer>
+			<div class="footer">
+				<h3> Connect with me, @farzat on </h3>
+				<div class="social-icons">
+					<a href="https://www.linkedin.com/in/farzat/">
+						<abbr title="LinkedIn">
+							<svg>
+								<use href="/img/svg-bundle.svg#logo-linkedin"></use>
+							</svg>
+						</abbr>
+					</a>
+					<a href="https://sr.ht/~farzat/">
+						<abbr title="Sourcehut">
+							<svg>
+								<use href="/img/svg-bundle.svg#sourcehut"></use>
+							</svg>
+						</abbr>
+					</a>
+					<a href="https://github.com/Farzat07">
+						<abbr title="GitHub">
+							<svg>
+								<use href="/img/svg-bundle.svg#logo-github"></use>
+							</svg>
+						</abbr>
+					</a>
+					<a href="https://gitlab.com/Farzat07">
+						<abbr title="GitLab">
+							<svg>
+								<use href="/img/svg-bundle.svg#logo-gitlab"></use>
+							</svg>
+						</abbr>
+					</a>
+					<a href="mailto:a@farzat.xyz">
+						<abbr title="Email">
+							<svg>
+								<use href="/img/svg-bundle.svg#mail-outline"></use>
+							</svg>
+						</abbr>
+					</a>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
 <!-- vim: set ft=htmldjango -->

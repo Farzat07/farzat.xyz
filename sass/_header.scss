@@ -1,3 +1,4 @@
+@use "sass:math";
 .header {
 	height: 60*$px;
 	max-width: 1200*$px;
@@ -12,19 +13,24 @@
 	align-items: center;
 	justify-content: left;
 	height: 100%;
+	outline: none;
 	&:link, &:visited {
 		text-decoration: none;
 		font-size: 28*$px;
-		color: var(--color-text);
+		color: inherit;
 		transition: transform .2s;
 	}
 	&:hover, &:active {
 		color: var(--color-primary);
 		transform: scale(1.05);
 	}
+	&:focus {
+		color: var(--color-accent);
+		transform: scale(1.05);
+	}
 }
 .main_icon {
-	height: 100%;
-	width: 40*$px;
+	height: math.div(200%, 3);
+	aspect-ratio: 5/4;
 	fill: currentColor;
 }

@@ -9,8 +9,15 @@
 	flex-wrap: wrap-reverse;
 	row-gap: 20*$px;
 	column-gap: 40*$px;
-	&__title {
+	&__text {
 		margin: auto;
+		display: flex;
+		flex-direction: column;
+	}
+	&__cta {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
 	}
 	&__img {
 		flex: 1;

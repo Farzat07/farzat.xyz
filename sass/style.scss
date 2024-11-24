@@ -1,4 +1,5 @@
 @import "variables";
+@import "Components/buttons";
 @import "footer";
 @import "header";
 @import "main";
@@ -30,4 +31,5 @@ body {
 	padding: 0;
 	margin: 0;
 	position: relative;
+	min-height: 100vh;
 }

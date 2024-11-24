@@ -1,0 +1,16 @@
+.btn {
+	text-decoration: none;
+	display: inline-block;
+	line-height: 2.25;
+	padding: 8*$px 32*$px;
+	border-radius: 8*$px;
+	white-space: nowrap;
+	&--primary {
+		color: var(--color-background);
+		background-color: var(--color-primary);
+	}
+	&--secondary {
+		color: var(--color-text);
+		background-color: var(--color-secondary);
+	}
+}

@@ -7,8 +7,23 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
+minify_html = true
 theme = "duckquill"
-title = "Farzat's Site"
+author = "Farzat"
+
+title = "A Farzat"
+description = "Farzat's personal webite."
+generate_feeds = true
+default_language = "en"
+
+taxonomies = [{ name = "tags", feed = true }]
+
+[languages.ar]
+title = "فرزات"
+description = "الموقع الشخصي لعبد الرحمن فرزات"
+generate_feeds = true
+
+taxonomies = [{ name = "tags", feed = true }]
 
 [markdown]
 # Whether to do syntax highlighting
@@ -16,4 +31,5 @@ title = "Farzat's Site"
 highlight_code = true
 
 [extra]
-# Put all your custom variables here
+# URL to website's source code
+source_url = "https://cgit.farzat.xyz/sites/farzat.xyz/"

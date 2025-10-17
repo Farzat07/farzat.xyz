@@ -9,7 +9,7 @@ build_search_index = true
 
 minify_html = true
 theme = "duckquill"
-author = "Farzat"
+author = "A Farzat"
 
 title = "A Farzat"
 description = "Farzat's personal webite."
@@ -33,3 +33,23 @@ highlight_code = true
 [extra]
 # URL to website's source code
 source_url = "https://cgit.farzat.xyz/sites/farzat.xyz/"
+
+[extra.nav]
+# Whether to automatically hide nav when not hovered or focused
+# auto_hide = true
+# Whether to show the Atom/RSS feed button in the nav
+show_feed = true
+# Whether to show the manual theme switcher in the nav
+show_theme_switcher = true
+# Whether to show the link to the source repository in the nav
+show_repo = true
+# Links used in the nav.
+# For local files use same link format as in Markdown,
+# i.e. "@/blog/_index.md".
+# See https://www.getzola.org/documentation/content/linking/#internal-links
+links = [
+	{ name = "Links", menu = [
+		{ url = "@/blog/_index.md", name = "Blog" },
+	] },
+	{ url = "@/contact/index.md", name = "Contact" }
+]

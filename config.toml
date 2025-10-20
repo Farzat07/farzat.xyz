@@ -25,6 +25,13 @@ generate_feeds = true
 
 taxonomies = [{ name = "tags", feed = true }]
 
+[languages.jp]
+title = "ファルザット"
+description = "الموقع الشخصي لعبد الرحمن فرزات"
+generate_feeds = true
+
+taxonomies = [{ name = "tags", feed = true }]
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola

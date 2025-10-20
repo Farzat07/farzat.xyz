@@ -8,7 +8,7 @@ If it is work-related, use my work email: [farzat@posteo.com](mailto:farzat@post
 
 If you want to encrypt your email, you can use the following encryption key:
 
-```pgp
+```txt
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mDMEZvmVNRYJKwYBBAHaRw8BAQdAOFkMybCC2bDh4DnRz5W42kHI3aUOJgcUVg2M

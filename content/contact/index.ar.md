@@ -8,7 +8,7 @@ title = "تواصل"
 
 إن أردت أن ترسل رسالة سرية لأي سبب كان، بإمكانك تشفير الرسالة باستخدام هذا المفتاح:
 
-```pgp
+```txt
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mDMEZvmVNRYJKwYBBAHaRw8BAQdAOFkMybCC2bDh4DnRz5W42kHI3aUOJgcUVg2M

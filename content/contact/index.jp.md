@@ -8,7 +8,7 @@ title = "連絡"
 
 メールを暗号化する場合は、以下の暗号化キーを使用できます。
 
-```pgp
+```txt
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mDMEZvmVNRYJKwYBBAHaRw8BAQdAOFkMybCC2bDh4DnRz5W42kHI3aUOJgcUVg2M

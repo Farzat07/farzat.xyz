@@ -33,6 +33,9 @@ highlight_code = true
 [extra]
 # URL to website's source code
 source_url = "https://cgit.farzat.xyz/sites/farzat.xyz/"
+# Whether to use fonts bundled with Duckquill instead of system ones.
+# Keep in mind that it also changes the style of headings.
+bundled_fonts = true
 
 [extra.nav]
 # Whether to automatically hide nav when not hovered or focused

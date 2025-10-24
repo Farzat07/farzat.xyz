@@ -16,3 +16,5 @@ You can also view the notebook as [a separate page](notebook.html).
 
 <!-- markdownlint-disable MD033 -->
 <iframe title="Spam Email Classification notebook" class="notebook-embed" src="notebook.html"></iframe>
+
+You can also check it on [GitHub](https://github.com/Farzat07/introduction-to-machine-learning-supervised-learning-final-assignment).

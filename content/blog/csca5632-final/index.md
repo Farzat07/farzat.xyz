@@ -109,7 +109,7 @@ tasks.
 The full notebook with code and visualizations is embedded below 👇
 
 <!-- markdownlint-disable MD033 -->
-<iframe title="Spam Email Classification notebook" class="notebook-embed" src="notebook.html"></iframe>
+<iframe title="Iris Species Clustering Analysis notebook" class="notebook-embed" src="notebook.html"></iframe>
 
 You can also view the notebook in [a separate page](notebook.html), or check it
 on [GitHub](https://github.com/Farzat07/Unsupervised-Learning-Final-Project-Iris-Species-Clustering-Analysis).

@@ -67,7 +67,7 @@ Future improvements could include:
 If you're curious about the details, the full notebook is embedded below 👇
 
 <!-- markdownlint-disable MD033 -->
-<iframe title="Spam Email Classification notebook" class="notebook-embed" src="notebook.html"></iframe>
+<iframe title="NLP Disaster Tweets notebook" class="notebook-embed" src="notebook.html"></iframe>
 
 You can also view the notebook in [a separate page](notebook.html), or check it
 on [GitHub](https://github.com/Farzat07/Kaggle-Mini-Project-NLP-Disaster-Tweets).
